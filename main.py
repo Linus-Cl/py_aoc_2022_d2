@@ -9,11 +9,11 @@ def calc_points(opponent_val, own_val):
         case 'A':
             match own_val:
                 case 'X':
-                    points = 4
-                case 'Y':
-                    points = 8
-                case 'Z':
                     points = 3
+                case 'Y':
+                    points = 4
+                case 'Z':
+                    points = 8
         case 'B':
             match own_val:
                 case 'X':
@@ -25,11 +25,11 @@ def calc_points(opponent_val, own_val):
         case 'C':
             match own_val:
                 case 'X':
-                    points = 7
-                case 'Y':
                     points = 2
-                case 'Z':
+                case 'Y':
                     points = 6
+                case 'Z':
+                    points = 7
 
     return points
 
